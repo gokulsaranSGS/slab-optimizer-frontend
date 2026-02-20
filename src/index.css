@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+@theme {
+
+  --color-primary: #2563eb;         /* blue-600 */
+  --color-primary-dark: #1d4ed8;
+  --spacing-13: 3.25rem;
+}

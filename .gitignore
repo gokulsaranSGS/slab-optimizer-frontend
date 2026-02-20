@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build outputs
+dist
+dist-ssr
+*.local
+
+# Vite / React specific
+coverage/               # ← test coverage reports (if using vitest/jest)
+playwright-report/      # ← if you add Playwright tests later
+test-results/           # ← similar for other test runners
+
+# Environment and secrets (already good, but can be more explicit)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json   # ← optional: commit shared settings if your team uses them
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional: package manager lockfiles (choose ONE to commit)
+# package-lock.json     # ← npm (most common for Vite projects)
+# yarn.lock             # ← if using Yarn
+# pnpm-lock.yaml        # ← if using pnpm
+
+# Optional: temporary files from bundlers/tools
+*.tsbuildinfo           # ← TypeScript incremental builds
+.eslintcache            # ← ESLint cache
